@@ -4,8 +4,8 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load the model and weights
-model_path = "C:\\Users\\srees\\Downloads\\Pneumonia_detection_using_CNN.h5"
-weights_path = "C:\\Users\\srees\\Downloads\\Pneumonia_detection_using_CNN.weights.h5"
+model_path = "Pneumonia_detection_using_CNN.h5"
+weights_path = "Pneumonia_detection_using_CNN.weights.h5"
 
 model = load_model(model_path)
 model.load_weights(weights_path)
